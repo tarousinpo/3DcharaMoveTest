@@ -324,6 +324,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
@@ -353,7 +354,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/lilToon.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniGLTF.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniGLTF.Samples.ScreenSpace.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UniHumanoid.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
@@ -397,6 +402,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VRM.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VRM10.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/VRMShaders.GLTF.IO.Runtime.ref.dll"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 
@@ -410,6 +418,7 @@
 /nowarn:0649
 /nowarn:1701
 /nowarn:1702
+-define:SYSTEM_DRAWING
 /utf8output
 /preferreduilang:en-US
 
