@@ -1,0 +1,443 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ja' Physical Memory: 32547 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/shimp/Documents/Project/vrm_tps_test
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50840
+Successfully changed project path to: C:/Users/shimp/Documents/Project/vrm_tps_test
+C:/Users/shimp/Documents/Project/vrm_tps_test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 175.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shimp/Documents/Project/vrm_tps_test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     16273 MB
+    Driver:   30.0.101.1340
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006077 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 141.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (818ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007155 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shimp\Documents\Project\vrm_tps_test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shimp\Documents\Project\vrm_tps_test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 168.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.166 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2168ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (1807ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (1066ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (203ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6484 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (11.6 MB). Loaded Objects now: 6880.
+Memory consumption went from 279.7 MB to 268.0 MB.
+Total: 13.751900 ms (FindLiveObjects: 0.642300 ms CreateObjectMapping: 0.781500 ms MarkObjects: 5.103200 ms  DeleteObjects: 7.213300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1322365.342339 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(f86b3aed054db7d4a983e73339478814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(f86b3aed054db7d4a983e73339478814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6744f90b435b05c0c788f10c08ab47') in 0.049233 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005901 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\shimp\Documents\Project\vrm_tps_test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\shimp\Documents\Project\vrm_tps_test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1456ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6340 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (11.8 MB). Loaded Objects now: 6895.
+Memory consumption went from 271.5 MB to 259.7 MB.
+Total: 8.439000 ms (FindLiveObjects: 0.606800 ms CreateObjectMapping: 0.262700 ms MarkObjects: 3.351400 ms  DeleteObjects: 4.216700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 720.888873 seconds.
+  path: Assets/Character/sample.prefab
+  artifactKey: Guid(479422a12a6f4e345b7ff23eaa8bcfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.prefab using Guid(479422a12a6f4e345b7ff23eaa8bcfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a525717ae19b7a787227a7743479c787') in 0.439540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.953465 seconds.
+  path: Assets/Character/sample.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset
+  artifactKey: Guid(b01d3f263f2bf8f49afb354dff03a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset using Guid(b01d3f263f2bf8f49afb354dff03a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784ec971a79545c0b6d3301c9ac6d22e') in 0.035072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/sample.Materials/N00_001_03_Bottoms_01_CLOTH (Instance).asset
+  artifactKey: Guid(6b65d520ec8bb1247a5955f2aa0911e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_001_03_Bottoms_01_CLOTH (Instance).asset using Guid(6b65d520ec8bb1247a5955f2aa0911e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1886445b8121c8cbfdd116af038d3b') in 0.019568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Character/sample.Materials/N00_005_01_Shoes_01_CLOTH (Instance).asset
+  artifactKey: Guid(62d608ccd3a65d94ea17a84f6c3d52c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_005_01_Shoes_01_CLOTH (Instance).asset using Guid(62d608ccd3a65d94ea17a84f6c3d52c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9704e0fb3eea333b77ed040aa8058ec8') in 0.019049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_06 (Instance).asset
+  artifactKey: Guid(3f6bc2e669d8bd24fadf866c7fd2f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_06 (Instance).asset using Guid(3f6bc2e669d8bd24fadf866c7fd2f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e007fb923ef9fa8264365726f2618a') in 0.020774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Character/sample.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset
+  artifactKey: Guid(36632a561133bd145a68a84c736821cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset using Guid(36632a561133bd145a68a84c736821cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b257aeaa9a5160046ea68e69d93f8f3f') in 0.020580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_04 (Instance).asset
+  artifactKey: Guid(ccc25445493a83b498fa717062c6ccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_04 (Instance).asset using Guid(ccc25445493a83b498fa717062c6ccec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee04df9adad5c975e15db5f4143ef158') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Character/sample.Materials/N00_007_01_Tops_01_CLOTH (Instance).asset
+  artifactKey: Guid(587e4d59c51b9004c954254948952c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_007_01_Tops_01_CLOTH (Instance).asset using Guid(587e4d59c51b9004c954254948952c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343af043c31856da2b4d1a06749aed20') in 0.019054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Character/sample.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset
+  artifactKey: Guid(008e1bad42ce0e341af3212877399fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset using Guid(008e1bad42ce0e341af3212877399fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd98b39e04df858b66d6ee5cf00dd215') in 0.021275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_02 (Instance).asset
+  artifactKey: Guid(4541fd72315be0449bc252ba6594233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_02 (Instance).asset using Guid(4541fd72315be0449bc252ba6594233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d9644c4b71e887691a5ec6d56634ac') in 0.018813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_05 (Instance).asset
+  artifactKey: Guid(ab0f6a92e6e806845a1f8b5a7fd40d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_05 (Instance).asset using Guid(ab0f6a92e6e806845a1f8b5a7fd40d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e448ef29380cb96dc8fff70a73340d1') in 0.021727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_01 (Instance).asset
+  artifactKey: Guid(c90128deceb2c56448d27bbd81f5758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_01 (Instance).asset using Guid(c90128deceb2c56448d27bbd81f5758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee72edf953a4f302576c9f6c0b71a8e4') in 0.023575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_03 (Instance).asset
+  artifactKey: Guid(80346fb87b4fe35459dc9bb8cd664bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_03 (Instance).asset using Guid(80346fb87b4fe35459dc9bb8cd664bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d77d3d001f36f80f618c339d83dd91f') in 0.021804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Character/sample.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset
+  artifactKey: Guid(9ccde555ba5ffae4c96dc502d711b758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_00_FaceBrow_00_FACE (Instance).asset using Guid(9ccde555ba5ffae4c96dc502d711b758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cce710186f64000efd591e21a8b387') in 0.017200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.323612 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_02 (Instance).asset
+  artifactKey: Guid(4541fd72315be0449bc252ba6594233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_02 (Instance).asset using Guid(4541fd72315be0449bc252ba6594233b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f82777dac641345f29c0726800b0da') in 0.556017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Character/sample.Materials/N00_001_03_Bottoms_01_CLOTH (Instance).asset
+  artifactKey: Guid(6b65d520ec8bb1247a5955f2aa0911e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_001_03_Bottoms_01_CLOTH (Instance).asset using Guid(6b65d520ec8bb1247a5955f2aa0911e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91c54b74b22863a7752468e994129d') in 0.027545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_06 (Instance).asset
+  artifactKey: Guid(3f6bc2e669d8bd24fadf866c7fd2f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_06 (Instance).asset using Guid(3f6bc2e669d8bd24fadf866c7fd2f1f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80257d0a3f51cf42d45de8f209d8ef2f') in 0.023599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_05 (Instance).asset
+  artifactKey: Guid(ab0f6a92e6e806845a1f8b5a7fd40d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Materials/N00_000_Hair_00_HAIR_05 (Instance).asset using Guid(ab0f6a92e6e806845a1f8b5a7fd40d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3880467f7dc0ccec46a3e393fafab8') in 0.027844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.454493 seconds.
+  path: Assets/Character/sample.Avatar/VrmAvatar.asset
+  artifactKey: Guid(51e12d24d71d0e647a9250cd3ac5847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/sample.Avatar/VrmAvatar.asset using Guid(51e12d24d71d0e647a9250cd3ac5847f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7c8aed4446fab90c962ae2e8cb32db') in 0.012977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Character/VRM/sample.Avatar/VrmAvatar.asset
+  artifactKey: Guid(99fe6a859d827c0468b15f38ff787aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Avatar/VrmAvatar.asset using Guid(99fe6a859d827c0468b15f38ff787aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a1564d6ffb1750561927fadae7f16f') in 0.004940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52593.408060 seconds.
+  path: Assets/Character/VRM/sample.MetaObject
+  artifactKey: Guid(a2b28bd2693053b47a0259167022fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.MetaObject using Guid(a2b28bd2693053b47a0259167022fc9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046cbf6447850af003ba445b378af860') in 0.008385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.619584 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset
+  artifactKey: Guid(e98c59e69d5678747909327908bddce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset using Guid(e98c59e69d5678747909327908bddce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc2d51f9106bbcd6ff854e16cc97b4c') in 0.031923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/VRM/sample.Materials
+  artifactKey: Guid(e5ec9cd1ded5e074f83dc44ca4764004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials using Guid(e5ec9cd1ded5e074f83dc44ca4764004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1a17c141731926b9fb85f3e5729bfc') in 0.006669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_007_01_Tops_01_CLOTH (Instance).asset
+  artifactKey: Guid(c0b67fed9d6a9c840b9ae5f2408abe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_007_01_Tops_01_CLOTH (Instance).asset using Guid(c0b67fed9d6a9c840b9ae5f2408abe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9463fe4907c70d2a8ed0fa2f443b762d') in 0.023470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset
+  artifactKey: Guid(7da86b5c7f5d6424d9145f8ac0f4d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset using Guid(7da86b5c7f5d6424d9145f8ac0f4d188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a771bfade4f99aaae8a5d641ae829e9') in 0.020159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_Face_00_SKIN (Instance).asset
+  artifactKey: Guid(480c89b2106f5654292415d52840df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_Face_00_SKIN (Instance).asset using Guid(480c89b2106f5654292415d52840df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f99d40041fc1308a5612c378db97a4') in 0.025881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_Hair_00_HAIR_04 (Instance).asset
+  artifactKey: Guid(8f687b247dcfa084a93f0074381eb10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_Hair_00_HAIR_04 (Instance).asset using Guid(8f687b247dcfa084a93f0074381eb10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d942f67378cb2e3fa36e20b03048f8') in 0.021635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_Hair_00_HAIR_03 (Instance).asset
+  artifactKey: Guid(9b0ab57d0589e8a40b78399f029057a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_Hair_00_HAIR_03 (Instance).asset using Guid(9b0ab57d0589e8a40b78399f029057a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc9ef82ff6514141a2b87807b7a8d0') in 0.026929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_001_03_Bottoms_01_CLOTH (Instance).asset
+  artifactKey: Guid(57a291b5c7a62c44eb4bdd4bebeebfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_001_03_Bottoms_01_CLOTH (Instance).asset using Guid(57a291b5c7a62c44eb4bdd4bebeebfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b33446260ea932706e007847199e83b') in 0.019071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset
+  artifactKey: Guid(f1b6a054be51fce4db19d5389c7eea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_EyeIris_00_EYE (Instance).asset using Guid(f1b6a054be51fce4db19d5389c7eea41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f11c4c491c32ccc0ca342c518d89a25') in 0.023627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1553.267012 seconds.
+  path: Assets/Character/VRM/sample.Meshes/Face (merged)(Clone).baked.asset
+  artifactKey: Guid(97e0e874bbfa70144b231248f4877e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Meshes/Face (merged)(Clone).baked.asset using Guid(97e0e874bbfa70144b231248f4877e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdd815fabb1dd20183b7f6c530239bc') in 0.173130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.736078 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset
+  artifactKey: Guid(b01d3f263f2bf8f49afb354dff03a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_EyeHighlight_00_EYE (Instance).asset using Guid(b01d3f263f2bf8f49afb354dff03a104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f42794d38402f0594e9a6cf808a73e') in 0.024085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset
+  artifactKey: Guid(36632a561133bd145a68a84c736821cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_EyeWhite_00_EYE (Instance).asset using Guid(36632a561133bd145a68a84c736821cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863e65c4b2cde48fb4585a5bc45a1f7c') in 0.028372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_FaceMouth_00_FACE (Instance).asset
+  artifactKey: Guid(efa25a9e0a7f4af4ca0c7e856c103078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_FaceMouth_00_FACE (Instance).asset using Guid(efa25a9e0a7f4af4ca0c7e856c103078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eca51b74f5a04fdc89ab0102c48e75') in 0.030045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Character/VRM/sample.Materials/N00_000_00_FaceEyeline_00_FACE (Instance).asset
+  artifactKey: Guid(14cd6c78857fb24408a5b64a59814b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/VRM/sample.Materials/N00_000_00_FaceEyeline_00_FACE (Instance).asset using Guid(14cd6c78857fb24408a5b64a59814b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6748ae075bfbf3e12438735946c9d6') in 0.024954 seconds 
